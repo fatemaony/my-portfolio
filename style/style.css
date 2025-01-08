@@ -158,3 +158,21 @@ main section{
 .button{
   text-align: center;
 }
+footer{
+  padding: 130px 230px;
+  display: flex;
+  gap: 100;
+}
+.footer-column{
+  width: 50%;
+}
+footer input[type="text"],footer input[type="email"],footer textarea{
+  height: 64px;
+  border-radius: 5px;
+  background-color:rgba(255, 255, 255, 1) ;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: none;
+}
